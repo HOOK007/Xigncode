@@ -1,0 +1,3 @@
+LIBRARY
+EXPORTS
+	1 = QueryFunction @1 PRIVATE

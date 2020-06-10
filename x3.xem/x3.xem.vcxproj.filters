@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="misc">
+      <UniqueIdentifier>{d4993dc0-ce46-43a1-a374-e8ff19cc746e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode">
+      <UniqueIdentifier>{7a633203-25fe-4c99-83ee-c9886e79791f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\xclio">
+      <UniqueIdentifier>{2edc94ff-337a-4950-b825-487a347e7130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\xpl">
+      <UniqueIdentifier>{9b9f6660-eaf2-4a7f-ba2d-97800058dd04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\xst">
+      <UniqueIdentifier>{097e726d-022b-4c23-9f07-51bab3f003c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\xclio\codebox">
+      <UniqueIdentifier>{fc5224f6-e68f-4158-ba5a-73ef31df594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\defs">
+      <UniqueIdentifier>{8e1f6c53-0153-4133-a90a-5ab79f2ddd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\exports">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{0efa36d0-6091-471a-9513-80add1be2b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\xclio\probeex">
+      <UniqueIdentifier>{4bae2d4a-3192-45f8-9f3d-f167ad799582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode\pack">
+      <UniqueIdentifier>{96f38717-8a46-4801-b2c4-a6ea6578e5c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CProbeEx.hpp">
+      <Filter>xigncode\xclio\probeex</Filter>
+    </ClInclude>
+    <ClInclude Include="CCodeBox.hpp">
+      <Filter>xigncode\xclio\codebox</Filter>
+    </ClInclude>
+    <ClInclude Include="xpl.h">
+      <Filter>xigncode\xpl</Filter>
+    </ClInclude>
+    <ClInclude Include="xst.h">
+      <Filter>xigncode\xst</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>xigncode\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>xigncode\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="xpack.h">
+      <Filter>xigncode\pack</Filter>
+    </ClInclude>
+    <ClInclude Include="TSingleton.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CXignCodeMain.hpp">
+      <Filter>xigncode\xclio</Filter>
+    </ClInclude>
+    <ClInclude Include="exports.hpp">
+      <Filter>xigncode\exports</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CCodeBox.cpp">
+      <Filter>xigncode\xclio\codebox</Filter>
+    </ClCompile>
+    <ClCompile Include="exports.cpp">
+      <Filter>xigncode\exports</Filter>
+    </ClCompile>
+    <ClCompile Include="CProbeEx.cpp">
+      <Filter>xigncode\xclio\probeex</Filter>
+    </ClCompile>
+    <ClCompile Include="xpl.cpp">
+      <Filter>xigncode\xpl</Filter>
+    </ClCompile>
+    <ClCompile Include="xst.cpp">
+      <Filter>xigncode\xst</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="xpack.cpp">
+      <Filter>xigncode\pack</Filter>
+    </ClCompile>
+    <ClCompile Include="CXignCodeMain.cpp">
+      <Filter>xigncode\xclio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>xigncode\exports</Filter>
+    </None>
+  </ItemGroup>
+</Project>
